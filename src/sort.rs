@@ -32,3 +32,16 @@ pub fn selection_sort_rs(arr: &mut [i32]) {
         arr.swap(i - 1, min);
     }
 }
+
+pub fn insertion_sort_rs(arr: &mut [i32]) {
+    for i in 1..arr.len() {
+        let current_value = arr[i];
+
+        let mut prev: isize = (i - 1) as isize;
+        while prev >= 0 && arr[prev as usize] >= current_value {
+            arr[(prev + 1) as usize] = arr[prev as usize];
+            prev -= 1;
+        }
+        arr[(prev + 1) as usize] = current_value;
+    }
+}
