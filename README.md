@@ -13,6 +13,7 @@ This project aims to benchmark different sort algorithms implemented in C and in
 
 > Tested on a Core i5-8250U
 
-![Insertion Sort](results/Insertion Sort/report/lines.svg)
 
-![Selection Sort](results/Selection Sort/report/lines.svg)
+![Insertion Sort](https://raw.githubusercontent.com/AaronErhardt/sort_benchmarks/master/results/Insertion%20Sort/report/lines.svg "Insertion Sort")
+
+![Selection Sort](https://raw.githubusercontent.com/AaronErhardt/sort_benchmarks/master/results/Selection%20Sort/report/lines.svg "Selection Sort")
