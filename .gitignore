@@ -1,3 +1,4 @@
 /target
 **/*.rs.bk
 src/c_bindings.rs
+Cargo.lock
