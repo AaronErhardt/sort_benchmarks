@@ -4,9 +4,20 @@ version = "0.1.0"
 authors = ["Aaron Erhardt <aaron.erhardt@t-online.de>"]
 edition = "2018"
 
+[dev-dependencies]
+criterion = "0.3"
+
 [build-dependencies]
 cc = "1.0"
 bindgen = "0.53.1"
 
 [dependencies]
 rand = "*"
+
+[[bench]]
+name = "selection_sort"
+harness = false
+
+[[bench]]
+name = "insertion_sort"
+harness = false

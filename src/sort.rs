@@ -16,7 +16,6 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-
 pub fn selection_sort_rs(arr: &mut [i32]) {
     let mut min: usize;
     let len = arr.len();
@@ -34,7 +33,9 @@ pub fn selection_sort_rs(arr: &mut [i32]) {
 }
 
 pub fn insertion_sort_rs(arr: &mut [i32]) {
-    for i in 1..arr.len() {
+    let len = arr.len();
+
+    for i in 1..len {
         let current_value = arr[i];
 
         let mut prev: isize = (i - 1) as isize;

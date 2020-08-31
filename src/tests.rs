@@ -16,11 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-
-use crate::sort::selection_sort_rs;
-
 #[cfg(test)]
-use crate::{generate_test_arrays, selection_sort_c, test_c, test_rs};
+use crate::{*, sort::*};
 
 #[test]
 fn c_selection_sort_test() {
